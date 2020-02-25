@@ -1,0 +1,50 @@
+.flex1,#flex2,#flex4,.flex3{
+    display: flex;
+}
+p{
+
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blueviolet;
+    font-family: "Manjari Bold";
+    font-weight: bolder;
+
+}
+.p1{
+    color: red;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    height: 80px;
+    background: crimson;
+    color: white;
+    font-family: cursive;
+    font-size: 22px;
+}
+td{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    color: crimson;
+}
+tr:hover{
+    background: yellow;
+}
+tr:nth-child(odd){
+    background: aqua;
+}
+.mainheader{
+    background: burlywood;
+    color: black;
+    font-size: 30px;
+    font-family: "Bitstream Charter";
+}
+
+

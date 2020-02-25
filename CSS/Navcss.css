@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: maroon;
+}
+li{
+    float: left;
+    /*border-right: 2px solid red;*/
+}
+li a{
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background: mediumseagreen;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background: mediumseagreen;
+}
+li.dropdown{
+    display: inline-block;
+}
+li.dropdown .dropdown-content{
+    opacity: 0.9;
+}
+.dropdown-content{
+    display: none;
+    background: maroon;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: yellow;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+.dropdown-content a:hover{
+    background: mediumseagreen;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+@media screen and (max-width: 600px){
+    .navigationmenu{
+        float: none;
+        width: 100%;
+
+    }
+
+}
+.active {
+    background: mediumseagreen;
+    color: white;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    margin-left: 50px;
+    font-family: SansSerif;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+
+}
+#para1{
+    margin-left: 50px;
+    margin-right: 10px;
+}
+#para2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#para3{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.footer{
+    text-align: center;
+    background: maroon;
+    color: white;
+    font-family: SansSerif;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 25px;
+    padding-top: 5px;
+}
+h4{
+    text-align: center;
+}
+.others{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.faq img{
+    width: 1400px;
+    height: 700px;
+}
